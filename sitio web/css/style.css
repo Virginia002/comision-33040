@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5%;
+    width: 40%;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav.menu ul li {
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+}
+
+nav.menu ul li a {
+    background-color: white;
+    padding: 5px;
+}
+
+nav.menu ul li a {
+    text-decoration: none;
+    padding: 5px ;
+    color: black;
+}
+
+div.info h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+div.info img {
+    width: 100%;
+}
+
+div.info p {
+    background-color: white;
+    width: 98%;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.gmaps {
+    background-color: white;
+    margin: 2%;
+}
+
+div.gmaps iframe {
+    width: 80%;
+    padding: 2%;
+}
+
+div.gmaps h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+div.gmaps p {
+    display: inline;
+}
+
+body {
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+div.clientesFelices {
+    text-align: center;
+    width: 50%;
+    margin: 5%;
+    background-color: white;
+}
+
+div.clientesFelices img {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+
+}
+
+div.productosRecomend {
+    text-align: center;
+    width: 80%;
+    margin: 5%;
+    background-color: white;
+}
+
+div.productosRecomend img {
+    width: 100%;
+    padding: 10px;
+}
+
+div.tienda {
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+}
+
+div.productos img {
+    padding: 10px;
+    width: 30%;
+}
+
+
+form {
+    background-color: white;
+    padding: 2%;
+    margin: 10px;
+    width: 98%;
+}
+
+div.formRadio label {
+    display: block;
+}
+
+div.formInfo input {
+    display: block;
+    margin: 10px;
+}
+
+#problema {
+    width: 90%;
+    height: 200px;
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
