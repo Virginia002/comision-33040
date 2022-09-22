@@ -160,3 +160,13 @@ footer {
     padding-top: 20px;
     text-align: center;
 }
+
+/* bootstrap */
+
+div.recommended {
+    background-color: white;
+}
+
+h5 {
+    text-align: center;
+}

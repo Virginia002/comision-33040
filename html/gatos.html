@@ -4,57 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel = "icon" href = "/imgs/shiba-icon.png">
     <title>Gatos - Hairballs</title>
-    <link rel="stylesheet" href="/sitio web/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     
     <header>
-        <nav>
-            <ul>
-                <li><a href="/sitio web/index.html"><img src="/sitio web/imgs/logo.png"alt=""></a></li>
-                <li><a href="./sobreNosotros.html">Sobre nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar sticky-top bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">PET SHOP Hairballs</a>
+                <a class="navbar-brand" href="/html/contacto.html">contacto</a>
+                <a class="navbar-brand" href="/html/sobreNosotros.html">sobre nosotros</a>
+            </div>
+            </nav>
     </header>
-
-    <nav class="menu">
-        <ul>
-            <li><a href="/sitio web/index.html">Ofertas!</a></li>
-            <li><a href="./perros.html">Perros</a></li>
-            <li><a href="./gatos.html">Gatos</a></li>
+    
+    <nav><!-- no encuentro la forma de que quede alineado vertical pero que no quede en el medio de la pagina -->
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">ofertas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/html/perros.html">perros</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/html/gatos.html">gatos</a>
+        </li>
         </ul>
     </nav>
 
-    <h2>Juguetes, Ropa y Alimento para tu mejor amigo!</h2>
+    <h2 class="animate__animated animate__backInUp">Juguetes, Ropa y Alimento para tu mejor amigo!</h2>
 
-    <div class="productosRecomend">
-        <img src="/sitio web/imgs/philippine-fitamant-UoNO74xD-JA-unsplash.jpg" alt="">
-        <p>Nuestros Productos</p>
-    </div>
-
-    <div class="tienda">
-        <h1>Ofertas</h1>
-
-        <div class="productos">
-            <img src="/sitio web/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" alt="">
-
-            <img src="/sitio web/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" alt="">
-            
-            <img src="/sitio web/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" alt="">
-            
-            <img src="/sitio web/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" alt="">
-
-            <img src="/sitio web/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" alt="">
-
-            <img src="/sitio web/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" alt="">
-
+    <div class="recommended">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="/imgs/philippine-fitamant-UoNO74xD-JA-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="/imgs/philippine-fitamant-UoNO74xD-JA-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="/imgs/philippine-fitamant-UoNO74xD-JA-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <h5>productos recomendados</h5>
     </div>
+
+        <h1 class="animate__animated animate__wobble">Ofertas</h1>
+
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+    <div class="card" style="width: 18rem;">
+        <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">producto</p>
+        </div>
+        </div>
+    </div>
+        <div class="col">
+    <div class="card" style="width: 18rem;">
+        <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">producto</p>
+        </div>
+    </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">producto</p>
+                </div>
+            </div>
+                </div>
+<div class="col">
+    <div class="card" style="width: 18rem;">
+        <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">producto</p>
+        </div>
+    </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">producto</p>
+                </div>
+            </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">producto</p>
+                        </div>
+                    </div>
+                        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">producto</p>
+                </div>
+            </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/imgs/piotr-musiol-YyaJ89Drv9k-unsplash.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">producto</p>
+                        </div>
+                    </div>
+                        </div>
+    </div>
+    
 
     <footer>2022</footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
