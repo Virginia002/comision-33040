@@ -5,61 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "icon" href = "/imgs/strawberry-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Hairballs - Pet Shop</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!-- SEO -->
+    <meta name="description" content="Petshop Hairballs ¡Todo lo que tu mejor amigo necesita!">
+    <meta name="keywords" content="pet, dog, cat, petshop, toys, food">
 </head>
 
 <body>
 
     <header>
+        <a href="index.html"> <img class="logo" src="./imgs/logo.png" alt="logo">
+        </a>
         <nav>
             <ul>
-                <li><a href="./index.html"><img src="./imgs/logo.png" alt=""></a></li>
-                <li><a href="/html/sobreNosotros.html">Sobre nosotros</a></li>
-                <li><a href="/html/contacto.html">Contacto</a></li>
+                <li><a href="html/sobreNosotros.html">Sobre nosotros</a></li>
+                <li><a href="html/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="#ofertas">Ofertas!</a></li>
-            <li><a href="/html/perros.html">Perros</a></li>
-            <li><a href="/html/gatos.html">Gatos</a></li>
-        </ul>
-    </nav>
+    <h1>Pet Shop Hairballs</h1>
+    <h2>¡Todo lo que tu mejor amigo necesita!</h2>
 
-    <div class="clientesFelices">
-        <img src="./imgs/kobi-kadosh-q6_CCxCnFbc-unsplash.jpg" alt="">
-        <p>Clientes Felices</p>
-    </div>
+    <section class="secondaryMenu">
+        <nav class="menu">
+            <ul>
+                <li><a href="#ofertas">Ofertas!</a></li>
+                <li><a href="html/perros.html">Perros</a></li>
+                <li><a href="html/gatos.html">Gatos</a></li>
+            </ul>
+        </nav>
+    
+        <div class="sliderAuto">
+            <ul>
+                <li><img src="./imgs/clientes-felices-1.png" alt=""></li>
+                <li><img src="./imgs/clientes-felices-2.jpg" alt=""></li>
+                <li><img src="./imgs/clientes-felices-3.jpg" alt=""></li>
+                <li><img src="./imgs/clientes-felices-4.jpeg" alt=""></li>
+            </ul>
+        </div>
+
+        <img class="secret" src="./imgs/secret-pet.png" alt="secretpet">
+    </section>
 
     <div class="productosRecomend">
         <img src="./imgs/kobi-kadosh-q6_CCxCnFbc-unsplash.jpg" alt="">
-        <p>Mejores vendidos!</p>
+        <p>Mejor vendido!</p>
     </div>
 
     <div class="tienda">
-        <a name="ofertas">Ofertas</a>
+        <a id="ofertas">Ofertas</a>
 
-        <div class="productos">
-            <img src="./imgs/chris-jarvis-NOLrgL3hUJg-unsplash.jpg" alt="">
-
-            <img src="./imgs/chris-jarvis-NOLrgL3hUJg-unsplash.jpg" alt="">
-    
-            <img src="./imgs/chris-jarvis-NOLrgL3hUJg-unsplash.jpg" alt="">
-    
-            <img src="./imgs/chris-jarvis-NOLrgL3hUJg-unsplash.jpg" alt="">
-    
-            <img src="./imgs/chris-jarvis-NOLrgL3hUJg-unsplash.jpg" alt="">
-    
-            <img src="./imgs/chris-jarvis-NOLrgL3hUJg-unsplash.jpg" alt="">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+    <div class="card" style="width: 18rem;">
+        <img src="./imgs/mejores-vendidos-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">producto</p>
         </div>
-        <!-- no pude lograr que se muestren lado a lado asi si les agrego texto sin usar flex  -->
+        </div>
+    </div>
+        <div class="col">
+    <div class="card" style="width: 18rem;">
+        <img src="./imgs/mejores-vendidos-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">producto</p>
+        </div>
+    </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./imgs/mejores-vendidos-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">producto</p>
+                </div>
+            </div>
+                </div>
+<div class="col">
+    <div class="card" style="width: 18rem;">
+        <img src="./imgs/mejores-vendidos-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">producto</p>
+        </div>
+    </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width:18rem;">
+                <img src="./imgs/mejores-vendidos-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">producto</p>
+                </div>
+            </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/mejores-vendidos-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">producto</p>
+                        </div>
+                    </div>
+                        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./imgs/mejores-vendidos-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">producto</p>
+                </div>
+            </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/mejores-vendidos-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">producto</p>
+                        </div>
+                    </div>
+                        </div>
+    </div>
 
     </div>
 
-    <footer>2022</footer>
+    <footer>derechos reservados 2022</footer>
 
 </body>
 </html>
